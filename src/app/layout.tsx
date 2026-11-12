@@ -184,54 +184,54 @@ const organizationLd = {
   ],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
-    name: "Products",
+    name: "Bulk supply and export",
     itemListElement: [
       {
         "@type": "Offer",
         itemOffered: {
-          "@type": "Product",
-          name: "Dry Red Chilli",
-          category: "Spice",
+          "@type": "Service",
+          name: "Bulk supply and export of Dry Red Chilli",
+          serviceType: "Dry Red Chilli",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
-          "@type": "Product",
-          name: "Red Chilli Powder",
-          category: "Spice",
+          "@type": "Service",
+          name: "Bulk supply and export of Red Chilli Powder",
+          serviceType: "Red Chilli Powder",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
-          "@type": "Product",
-          name: "Red Onion",
-          category: "Vegetable",
+          "@type": "Service",
+          name: "Bulk supply and export of Red Onion",
+          serviceType: "Red Onion",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
-          "@type": "Product",
-          name: "Dehydrated Onion",
-          category: "Dehydrated Vegetable",
+          "@type": "Service",
+          name: "Bulk supply and export of Dehydrated Onion",
+          serviceType: "Dehydrated Onion",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
-          "@type": "Product",
-          name: "Turmeric",
-          category: "Spice",
+          "@type": "Service",
+          name: "Bulk supply and export of Turmeric",
+          serviceType: "Turmeric",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
-          "@type": "Product",
-          name: "Dehydrated Garlic",
-          category: "Dehydrated Vegetable",
+          "@type": "Service",
+          name: "Bulk supply and export of Dehydrated Garlic",
+          serviceType: "Dehydrated Garlic",
         },
       },
     ],
