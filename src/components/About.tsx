@@ -57,13 +57,6 @@ export default function About() {
                         className="absolute pointer-events-none z-[1] w-[112px] h-auto top-[-34px] right-2 -scale-x-100 max-[900px]:w-[98px] max-[900px]:top-auto max-[900px]:right-1.5 max-[900px]:-bottom-8 max-[640px]:w-[84px] max-[640px]:-bottom-9 max-[640px]:right-1 max-[480px]:w-[70px] max-[480px]:-bottom-10 max-[480px]:right-0"
                     />
                     <Image
-                        src="/images/about-us-1.jpeg"
-                        alt="SRC Corporation sourcing dry red chillies at a Hyderabad mandi"
-                        width={180}
-                        height={229}
-                        className="w-full h-[229px] max-w-[180px] object-cover rounded-[28px] block object-[30%_70%] max-[900px]:max-w-[140px] max-[640px]:max-w-[100px] max-[640px]:rounded-2xl max-[640px]:h-[180px] max-[480px]:max-w-full max-[480px]:max-h-[180px] max-[480px]:rounded-xl max-[480px]:h-[140px]"
-                    />
-                    <Image
                         src="/images/about-us-2.png"
                         alt="Dry red chilli sorting and processing for bulk export"
                         width={180}
