@@ -45,6 +45,37 @@ export default async function ProductPage({ params }: Props) {
           <Link href="/#contact" className="inline-block rounded-full bg-red-700 px-7 py-3 font-semibold text-white">Request a bulk quotation</Link>
         </div>
       </div>
+      {product.slug === "dry-red-chilli" && (
+        <section className="mt-12 max-w-3xl" aria-labelledby="chilli-buying-questions">
+          <h2 id="chilli-buying-questions" className="mb-5 text-2xl font-semibold">
+            Buying dry red chillies in bulk
+          </h2>
+          <div className="space-y-5">
+            <div>
+              <h3 className="font-semibold">Where does SRC Corporation supply dry red chillies from?</h3>
+              <p className="mt-1 leading-7">
+                SRC Corporation is based in Hyderabad, Telangana, and sources Indian dry red chillies
+                from wholesale markets, including the Malakpet market in Hyderabad.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold">Which dry red chilli varieties can I ask for?</h3>
+              <p className="mt-1 leading-7">
+                Ask about Teja (S17), Sannam (334), 341 or Byadgi. Share your target heat level,
+                colour and intended use so the team can confirm current availability and suitable lots.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold">What should I include in a bulk quotation request?</h3>
+              <p className="mt-1 leading-7">
+                Include your required quantity, delivery destination, preferred variety and packaging.
+                If you have moisture, colour or pungency specifications, include those too. Ask the team
+                to confirm the lot specifications, minimum order quantity and dispatch options.
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
       <section className="mt-16"><h2 className="mb-4 text-2xl font-semibold">Other bulk products</h2>
         <div className="flex flex-wrap gap-4">{products.filter(p => p.slug !== slug).map(p => <Link className="rounded border px-4 py-2 underline" href={`/products/${p.slug}`} key={p.slug}>{p.name}</Link>)}</div>
       </section>
